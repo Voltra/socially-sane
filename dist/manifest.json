@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Socially Sane",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icons/48.png"
+  },
+  "description": "A cross-browser extension that unbloats social media websites and render them healthier to use",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://twitter.com/*",
+        "https://twitter.com/*"
+      ],
+      "css": [],
+      "js": []
+    }
+  ]
+}

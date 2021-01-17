@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Voltra/socially-sane#readme",
   "dependencies": {
     "webext-detect-page": "^2.0.6",
+    "webext-dynamic-content-scripts": "^7.0.0",
     "webext-options-sync": "^2.0.1",
     "webextension-polyfill": "^0.7.0"
   },
