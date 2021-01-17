@@ -1,0 +1,10 @@
+bkp/
+vendor/
+
+node_modules/
+eslint-rules/
+templates/
+dist/
+./*
+!./src/*
+

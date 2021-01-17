@@ -1,0 +1,66 @@
+{
+  "name": "socially-sane",
+  "version": "1.0.0",
+  "description": "A cross-browser extension that unbloats social media websites and render them healthier to use",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voltra/socially-sane.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Voltra/socially-sane/issues"
+  },
+  "homepage": "https://github.com/Voltra/socially-sane#readme",
+  "dependencies": {
+    "webext-detect-page": "^2.0.6",
+    "webext-options-sync": "^2.0.1",
+    "webextension-polyfill": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/parser": "^7.12.11",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-do-expressions": "^7.12.1",
+    "@babel/plugin-proposal-function-bind": "^7.12.1",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
+    "@babel/plugin-proposal-numeric-separator": "^7.12.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
+    "@babel/plugin-proposal-partial-application": "^7.12.1",
+    "@babel/plugin-proposal-pipeline-operator": "^7.12.1",
+    "@babel/plugin-proposal-throw-expressions": "^7.12.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/types": "^7.12.12",
+    "@types/chrome": "0.0.128",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^7.1.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "core-js": "^3.8.2",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "dotenv-safe": "^8.2.0",
+    "dotenv-webpack": "^6.0.0",
+    "eslint": "^7.18.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-rulesdir": "^0.1.0",
+    "eslint-rule-composer": "^0.3.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "script-loader": "^0.7.2",
+    "web-ext-types": "^3.2.1",
+    "webextension-polyfill-ts": "^0.22.0",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-progress-bar": "^1.2.1"
+  }
+}

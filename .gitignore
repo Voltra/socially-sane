@@ -1,0 +1,12 @@
+.env
+.vscode/
+.idea/
+.brackets.json
+node_modules/
+vendor/
+tmp/
+log/
+*.log*
+package-lock.json
+yarn.lock
+*.DS_Store
